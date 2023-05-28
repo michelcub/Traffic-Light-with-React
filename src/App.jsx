@@ -18,7 +18,7 @@ function App() {
   }
 
   return (
-    <section>
+    <section className='body-section'>
         <div className='box-trafic-control'>
           {ligthGroup.map((item)=> <Ligth id={item.id} color={item.color} handle={handleActiveLigth} selection={ligthSelection}/>)}
         </div>
