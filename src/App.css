@@ -1,0 +1,32 @@
+.box-trafic-control{
+  padding: 10px;
+  background-color: rgb(43, 43, 36);
+  width: 8rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+}
+.box-ligth{
+  
+  border-radius: 100%;
+  width: 6rem;
+  height: 6rem;
+}
+.box-ligth-red{
+  background-color: red;
+}
+.box-ligth-yellow{
+  background-color: yellow;
+}
+.box-ligth-green{
+  background-color: rgb(103, 235, 103);
+}
+.box-ligth-purpura{
+  background-color: rgb(235, 103, 229);
+}
+.active-ligth{
+  box-shadow: 0px 0px 5px 10px rgb(194, 179, 179);
+}
